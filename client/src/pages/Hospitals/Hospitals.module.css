@@ -1,0 +1,10 @@
+.main{
+    padding: 7rem 9rem;
+    height: 100vh;
+}
+.hospitalsList{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
