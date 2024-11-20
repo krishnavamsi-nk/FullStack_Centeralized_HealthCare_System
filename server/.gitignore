@@ -1,0 +1,5 @@
+node_modules/
+.env
+chs.sqlite
+log/
+uploads/
