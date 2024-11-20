@@ -49,16 +49,26 @@ app.use(express.json({ limit: '50mb' }));
 app.use('/uploads', express.static('uploads'));
 app.use(
     cors({
-        origin: [
-            "http://localhost:3000",
-            "https://centralized-healthcare-system.netlify.app",
-            "http://127.0.0.1:5500",
-            "*",
-        ],
+        origin: function (origin, callback) {
+            // List of allowed origins
+            const allowedOrigins = [
+                "http://localhost:3000",
+                "https://centralized-healthcare-system.netlify.app",
+                "http://127.0.0.1:5500"
+            ];
+
+            // If the origin is in the allowedOrigins array, allow the request, else block it
+            if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+                callback(null, true);  // null means no error, true means allow
+            } else {
+                callback(new Error('Not allowed by CORS'));
+            }
+        },
         methods: ["POST", "GET", "HEAD", "PUT", "DELETE", "PATCH"],
-        credentials: true,
+        credentials: true,  // Allow credentials (cookies, authorization headers, etc.)
     })
 );
+
 app.use(cookieParser());
 
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms'));
