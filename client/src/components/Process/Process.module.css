@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100&display=swap");
+.background {
+    background-color: white;
+}
+.content {
+    min-height: 95vh;
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 3rem 2rem;
+    color: white;
+}
+.content h1 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 50vh;
+    margin-top: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.399);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.4px);
+    -webkit-backdrop-filter: blur(8.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 3rem 3rem;
+    color: white;
+}
+.card h1 {
+    margin-top: 3rem;
+    text-align: left;
+    font-size: x-large;
+    font-family: "Montserrat", sans-serif;
+}
