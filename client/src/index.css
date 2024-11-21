@@ -157,7 +157,7 @@ body {
     padding-left: 5px;
   }
   .dropdown-item {
-    justify-content: start !important;
+    justify-content: flex-start !important;
     display: flex !important;
   }
   .Login_form__C9\+rt {
@@ -225,17 +225,17 @@ body {
   .HospitalCard_cardMain__wMf8b {
     flex-direction: column !important;
   }
-  .HospitalCard_btn__xK3Vs{
+  .HospitalCard_btn__xK3Vs {
     border-radius: 0px !important;
-    width: 100% !important
+    width: 100% !important;
   }
-  .HospitalCard_imageDiv__6VAJJ{
+  .HospitalCard_imageDiv__6VAJJ {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .Hospitals_hospitalsList__G2Nfr{
+  .Hospitals_hospitalsList__G2Nfr {
     position: absolute !important;
     width: 100% !important;
     margin: auto !important;
@@ -244,7 +244,7 @@ body {
     padding: 0px !important;
   }
 
-  .HospitalFilter_sub__ACNbC{
+  .HospitalFilter_sub__ACNbC {
     margin-top: 2rem !important;
   }
 
@@ -256,27 +256,26 @@ body {
     grid-template-columns: 1fr !important;
   }
 
-  .ViewRequestedAppointments_appointmentmain__zfDk2{
-    margin:0px !important
+  .ViewRequestedAppointments_appointmentmain__zfDk2 {
+    margin: 0px !important;
   }
 
-  .ViewHospitalsWorking_main__PB\+ow{
+  .ViewHospitalsWorking_main__PB\+ow {
     grid-template-columns: 1fr !important;
   }
 
   .DoctorsBookedAppointments_appointmentmain__so8Vi {
     grid-template-columns: 1fr !important;
-
   }
-  .UpdateImage_update-image__Vsfqu{
+  .UpdateImage_update-image__Vsfqu {
     margin-top: 2rem !important;
   }
-  .card{
+  .card {
     width: 100% !important;
     cursor: pointer !important;
     height: 12rem !important;
   }
-  .PatientsDashboard_buttonsDiv__LXEwR{
+  .PatientsDashboard_buttonsDiv__LXEwR {
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr !important;
   }
@@ -286,63 +285,65 @@ body {
   .Admin_home__ixuzA {
     flex-direction: column !important;
   }
-  .Sidebar_sidebar__ZYyRH , .Sidebar_center__SnvsA ul{
+  .Sidebar_sidebar__ZYyRH,
+  .Sidebar_center__SnvsA ul {
     display: flex !important;
-    min-height:0px !important;
+    min-height: 0px !important;
   }
   .Sidebar_sidebar__ZYyRH {
     flex-direction: column !important;
     display: flex !important;
   }
 
-  .Admin_home__ixuzA ,.Admin_homeContainer__xD1Gm ,.Admin_charts__3oYNy{
+  .Admin_home__ixuzA,
+  .Admin_homeContainer__xD1Gm,
+  .Admin_charts__3oYNy {
     flex-direction: column !important;
   }
-  .Admin_widgets__EtrIY{
+  .Admin_widgets__EtrIY {
     flex-direction: column !important;
   }
-  .Sidebar_center__SnvsA ul li div{
+  .Sidebar_center__SnvsA ul li div {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-     
   }
   .Sidebar_sidebar__ZYyRH .Sidebar_center__SnvsA {
     margin: auto !important;
   }
-  .AdminHospital_hostpitals__Vk8zx, .AdminHospital_top__bRAtf, .AdminDoctors_doctors__yOMvq,.AdminDoctors_top__Rl5lN,.AdminPatients_patients__Wm-T5, .AdminPatients_top__eNGL7, .AdminPatientList_patient-list__fQtbz ,.AdminHospitalList_hospital-list__8pOWn ,.AdminDoctorList_doctors-list__HxeQ5 {
+  .AdminHospital_hostpitals__Vk8zx,
+  .AdminHospital_top__bRAtf,
+  .AdminDoctors_doctors__yOMvq,
+  .AdminDoctors_top__Rl5lN,
+  .AdminPatients_patients__Wm-T5,
+  .AdminPatients_top__eNGL7,
+  .AdminPatientList_patient-list__fQtbz,
+  .AdminHospitalList_hospital-list__8pOWn,
+  .AdminDoctorList_doctors-list__HxeQ5 {
     flex-direction: column !important;
-
   }
-  .css-az8st9-MuiDataGrid-root{
+  .css-az8st9-MuiDataGrid-root {
     overflow-x: scroll !important;
   }
 
-  .Partners_main__GBZYB{
-    gap:0px !important;
-    
+  .Partners_main__GBZYB {
+    gap: 0px !important;
   }
 
-  .Partners_main__GBZYB h1{
-    font-size: 16px !important
+  .Partners_main__GBZYB h1 {
+    font-size: 16px !important;
   }
-  .Process_card__uWjd0 div{
+  .Process_card__uWjd0 div {
     display: flex;
     justify-content: center;
   }
 
-  .Testimonials_testimonials-reviewcard__26H4q p{
+  .Testimonials_testimonials-reviewcard__26H4q p {
     margin: 0px !important;
   }
 
-.Features_content__XKKeZ {
-  padding: 3rem 2rem !important;
-}
-
-
-
-  
- 
-
+  .Features_content__XKKeZ {
+    padding: 3rem 2rem !important;
+  }
 }
