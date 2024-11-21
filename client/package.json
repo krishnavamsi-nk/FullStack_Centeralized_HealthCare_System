@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build public",
+    "build": "react-scripts build",
     "test": "react-scripts test --reporters=default --reporters=jest-html-reporters",
     "eject": "react-scripts eject",
     "coverage": "npm test -- --coverage"

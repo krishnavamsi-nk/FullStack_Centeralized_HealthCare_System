@@ -4,9 +4,12 @@
         "src": "client/package.json",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "client/public"
+          "distDir": "client/build"
         }
       }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
     ]
   }
   
