@@ -1,8 +1,9 @@
+[build]
+  base = "client"
+  command = "npm run build"
+  publish = "client/build"
+
 [[redirects]]
   from = "/*"
   to = "/"
   status = 200
-
-  [build]
-  command = "npm run build"
-  publish = "build"
