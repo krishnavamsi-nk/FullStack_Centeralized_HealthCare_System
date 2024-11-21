@@ -1,0 +1,21 @@
+.main {
+    width: 80%;
+    margin: 4.5rem auto;
+}
+.doctorsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem auto;
+    gap: 0.5rem;
+}
+.doctorFilter {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+}
+.doctorFilter select {
+    padding: 1rem;
+    width: 100%;
+}
+
